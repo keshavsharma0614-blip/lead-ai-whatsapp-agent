@@ -21,6 +21,18 @@ There may not be a deployable application yet. Do not publish fake deployment cl
 - `preview` for pull requests and demos.
 - `production` only after security, testing, and operational readiness reviews.
 
+## Planned MVP Deployment
+
+The initial deployment target is a prototype capable of:
+
+* Receiving WhatsApp webhook events.
+* Running lead qualification workflows.
+* Applying human handoff rules.
+* Storing qualified lead information.
+
+Deployment instructions should only be documented once a runnable implementation and verified setup process exist.
+
+
 ## Pre-Deployment Checklist
 
 - [ ] No secrets or `.env` files committed.
