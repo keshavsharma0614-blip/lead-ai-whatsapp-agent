@@ -31,6 +31,26 @@ Business problem: Businesses miss WhatsApp leads and manually answer repetitive 
 - CRM-ready lead storage
 - Twilio integration placeholder
 
+### Lead Qualification Flow
+
+The MVP workflow is expected to:
+
+1. Receive inbound WhatsApp messages through a webhook.
+2. Detect intent and collect qualification details.
+3. Determine whether the lead meets business-defined qualification criteria.
+4. Route qualified leads for follow-up.
+5. Escalate conversations to a human when handoff rules are triggered.
+
+### Human Handoff Rules
+
+Human escalation should occur when:
+
+* A user explicitly requests a human.
+* Confidence in the AI response is low.
+* A business-specific decision is required.
+* The conversation falls outside supported workflows.
+
+
 ## Data And Integration Notes
 
 - Store only the data required for the workflow.
