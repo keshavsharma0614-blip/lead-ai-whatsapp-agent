@@ -13,7 +13,7 @@ Prototype / In Development
 
 ## Phase 2: MVP Demo
 
-- Implement the core workflow: Implement webhook verification and a simple qualification conversation flow.
+- Implement webhook verification, lead qualification, FAQ responses, and human handoff rules.
 - Add realistic sample data and public-safe examples.
 - Add screenshots or a short demo video.
 - Validate the workflow with at least one business scenario.
